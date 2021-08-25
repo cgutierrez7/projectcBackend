@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MiniITX\\Documents\\test\\projectcBackend\\projectcBackend.csproj": {}
+    "C:\\Users\\MiniITX\\Documents\\projectcBackend\\projectcBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MiniITX\\Documents\\test\\projectcBackend\\projectcBackend.csproj": {
+    "C:\\Users\\MiniITX\\Documents\\projectcBackend\\projectcBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MiniITX\\Documents\\test\\projectcBackend\\projectcBackend.csproj",
+        "projectUniqueName": "C:\\Users\\MiniITX\\Documents\\projectcBackend\\projectcBackend.csproj",
         "projectName": "projectcBackend",
-        "projectPath": "C:\\Users\\MiniITX\\Documents\\test\\projectcBackend\\projectcBackend.csproj",
+        "projectPath": "C:\\Users\\MiniITX\\Documents\\projectcBackend\\projectcBackend.csproj",
         "packagesPath": "C:\\Users\\MiniITX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MiniITX\\Documents\\test\\projectcBackend\\obj\\",
+        "outputPath": "C:\\Users\\MiniITX\\Documents\\projectcBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

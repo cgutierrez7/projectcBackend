@@ -27,3 +27,13 @@ C:\Users\Chris\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.dll
 C:\Users\Chris\Documents\projectcBackend\obj\Debug\net5.0\ref\projectcBackend.dll
 C:\Users\Chris\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.pdb
 C:\Users\Chris\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.genruntimeconfig.cache
+C:\Users\MiniITX\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.csproj.AssemblyReference.cache
+C:\Users\MiniITX\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MiniITX\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.AssemblyInfoInputs.cache
+C:\Users\MiniITX\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.AssemblyInfo.cs
+C:\Users\MiniITX\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.csproj.CoreCompileInputs.cache
+C:\Users\MiniITX\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MiniITX\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MiniITX\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.dll
+C:\Users\MiniITX\Documents\projectcBackend\obj\Debug\net5.0\ref\projectcBackend.dll
+C:\Users\MiniITX\Documents\projectcBackend\obj\Debug\net5.0\projectcBackend.pdb

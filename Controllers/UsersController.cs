@@ -13,17 +13,41 @@ namespace projectcBackend.Controllers
     {
         // GET: api/v1/users
         [HttpGet("users")]
-        public User Get()
+        //public async Task<List<User>> GetAsync()
+        public Task<List<User>> Get()
         {   
-            var users = new User{
+            LinkModel twitchLink = new LinkModel{ "Twitch", "www.twitch.tv" };
+
+            User user = new User{
                 Username = "username1",
-                IsMember = true,
-                MemberType = "member",
+                MemberRole = MemberRoles.Member,
                 Email = "username1@user.com",
-                About = "This is the about of the username1."
+                About = "This is the about of the username1.",
+                LinkList = new List<LinkModel>{ twitchLink }
             };
 
-            return users;
+            List<User> usersList = new List<User>{ user };
+
+            // User usersList = await // add method here
+
+            return usersList;
+        }
+
+        // GET: api/v1/users/{username}
+        // public async Task<User> GetAsync(string username)git
+        public Task<User> Get(string username)
+        {
+            LinkModel twitchLink = new LinkModel{ "Twitch", "www.twitch.tv" };
+
+            User user = new User{
+                Username = "username1",
+                MemberRole = MemberRoles.Member,
+                Email = "username1@user.com",
+                About = "This is the about of the username1.",
+                LinkList = new List<LinkModel>{ twitchLink }
+            };
+
+            return user;
         }
     }
 }
