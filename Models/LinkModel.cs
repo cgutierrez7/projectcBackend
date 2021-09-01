@@ -1,8 +1,8 @@
-namespace projectcBackend 
+namespace projectcBackend.Models
 {
     public class LinkModel
     {
-        public LinkTypes LinkType { get; set;}
+        public string LinkType { get; set;}
         public string Url { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-namespace projectcBackend
+namespace projectcBackend.Models
 {
     public class LinkTypes
     {

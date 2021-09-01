@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using projectcBackend.Models;
 
 namespace projectcBackend.Controllers
 {
@@ -14,16 +15,18 @@ namespace projectcBackend.Controllers
         // GET: api/v1/users
         [HttpGet("users")]
         //public async Task<List<User>> GetAsync()
-        public Task<List<User>> Get()
+        public List<User> Get()
         {   
-            LinkModel twitchLink = new LinkModel{ "Twitch", "www.twitch.tv" };
+            LinkModel twitchLink = new LinkModel { LinkType = LinkTypes.Twitch, Url = "www.twitch.tv" };
 
-            User user = new User{
+            User user = new User {
                 Username = "username1",
                 MemberRole = MemberRoles.Member,
                 Email = "username1@user.com",
                 About = "This is the about of the username1.",
-                LinkList = new List<LinkModel>{ twitchLink }
+                LinkList = new List<LinkModel>{ twitchLink },
+                IsAdmin = false,
+                AdminId = ""
             };
 
             List<User> usersList = new List<User>{ user };
@@ -35,16 +38,18 @@ namespace projectcBackend.Controllers
 
         // GET: api/v1/users/{username}
         // public async Task<User> GetAsync(string username)git
-        public Task<User> Get(string username)
+        public User Get(string username)
         {
-            LinkModel twitchLink = new LinkModel{ "Twitch", "www.twitch.tv" };
+            LinkModel twitchLink = new LinkModel { LinkType = LinkTypes.Twitch, Url = "www.twitch.tv" };
 
-            User user = new User{
+            User user = new User {
                 Username = "username1",
                 MemberRole = MemberRoles.Member,
                 Email = "username1@user.com",
                 About = "This is the about of the username1.",
-                LinkList = new List<LinkModel>{ twitchLink }
+                LinkList = new List<LinkModel>{ twitchLink },
+                IsAdmin = false,
+                AdminId = ""
             };
 
             return user;
